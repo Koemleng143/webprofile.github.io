@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(background1.png);
+    background-size: cover; 
+}
+.box{
+    margin: auto;
+    color: #fff;
+    width: 450px;
+    height: 600px;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 20px 30px;
+    background: rgb(0,0,0,0.5);
+    box-shadow: 1px 2px 3px aqua;
+}
+img{
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px #fafdfc,0 0 10px #000000,0 0 15px #ff0000;
+    
+}
+h1{
+    color: rgb(11, 12, 12);
+    text-shadow: 0 0 50px #00ffe1,0 0 100px #00ffee,0 0 150px #00fff7;
+    font-size: 40px;
+    font-family: the dark;
+}
+ul{
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+li{
+    display: inline-block;
+    margin: 10px;
+    list-style: none;
+}
+li a{
+    color: #151616;
+    text-decoration: none;
+    text-shadow: 0 0 50px #00fff7,0 0 100px #00fbff,0 0 150px #00ffea;;
+    font-size: 40px;
+}
+li a:hover{
+    color: #fff;
+    font-size: 50px;
+}
+h3{
+    margin-top: 10px;
+    color: #0a0b0b;
+    font-size: 30px;
+    font-family: Rapscallion;
+    text-shadow: 0 0 3px #fff,0 0 7px #000000,0 0 12px #ff0000;
+    letter-spacing: 5px;
+}
+p{
+    color: #eff6f4;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.login{
+    margin: auto;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    align-items: center;
+}   
+.login h2{
+    color: #161716;
+    font-size: 30px;
+    font-family: the dark;
+    letter-spacing: 3px;
+    text-shadow:  0 0 3px #f9f9f9,0 0 8px #000000,0 0 13px #5afcfc;
+}
+.login input{
+    padding: 10px;
+    width: 400px;
+    height: 50px;
+    border-radius: 20px;
+    background: rgb(0,0,0,0.5);
+    font-size: 20px;
+    color: #04f896;
+    animation: animate 4s linear infinite;
+    animation-delay: 0.3s;
+}
+@keyframes animate{
+    from{
+        filter: hue-rotate(0deg);
+    }
+    to{
+        filter: hue-rotate(360deg);
+    }
+}
+.login input::placeholder{
+    padding: 10px;
+    color: #f8f9f8;
+}
+.login a button{
+    margin: 20px;
+    width: 100px;
+    height: 40px;
+    color: #111211;
+    font-size: 20px;
+    font-family: the dark;
+    background: #eaf0ec;
+    border-radius: 10px;
+}
+.login a button:hover{
+    width: 150px;
+    height: 50px;
+    color: #f30505;
+}
